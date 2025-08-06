@@ -1,0 +1,78 @@
+「マネーフォワード クラウド契約」のAPIを呼び出す
+10
+取得したアクセストークンを利用して、実際にマネーフォワード クラウド契約のAPIを呼び出します。
+
+本スライドでは、例として契約種別の取得APIを呼び出します。
+
+▼契約種別の取得API
+'https://api.contract.moneyforward.com/v1/contract_types
+
+契約種別の取得APIをcurlで呼び出します。以下がcurlコマンドの例です。 ${ }の部分は、必要な値に書き換えてください。
+
+curl --location --request GET 'https://api.contract.moneyforward.com/v1/contract_types' \
+--header 'Authorization: Bearer ${アクセストークン}' \
+--header 'x-email: ${ユーザーのメールアドレス}'
+--header 'x-token: ${アクセストークン}'
+
+API仕様①   最終更新: 2025/07/22
+11
+▶API定義：https://api.contract.moneyforward.com/v1/docs/index.html
+契約種別一覧の取得: GET /contract_types
+ワークフロー一覧の取得: GET /workflow_templates
+*「申請者が入力」設定を持つワークフローは選択できません
+押印者を含むか含まないかという情報をワークフローごとに返却します
+書類種別一覧の取得: GET /document_types
+ユーザー一覧の取得: GET /users
+下書き契約の作成: POST /contracts
+*1,2,3で取得したリストからいずれかの id をそれぞれ contract_type_id, workflow_template_id, document_type_id として指定してください（document_type_idはOptional）
+*4で取得したリストからいずれかのidを person_in_charge_idとして指定してください
+下書き契約の更新: PUT /contracts/{ID}
+テンプレートで作成した契約の場合、ワークフローと契約種別をこのAPIで更新できません。ワークフローと契約種別を更新したい場合は、*17のテンプレートで下書き契約の作成APIで新しい契約を作成していください。
+下書き契約一覧の取得: GET /contracts
+下書き契約詳細の取得: GET /contracts/{ID}
+ファイルの追加: POST/contracts/{ID}/documents
+テンプレートで作成した契約の場合、契約書をこのAPIで追加できません。テンプレートに設定した契約書を利用してください。
+
+▶API定義：https://api.contract.moneyforward.com/v1/docs/index.html
+    10.	宛先情報の追加:POST/contracts/{ID}/partner_companies
+*複数の相手先を追加可能
+テンプレートに設定されている相手方の数を合わせる必要があります。
+    11. 	契約情報の追加: PUT /contracts/{ID}/fields
+    a.	*「5. 下書き契約の作成API」もしくは「8.下書き契約詳細の取得API」のレスポンスの内容からリクエスト値の"contract_fields (契約情報の一覧)"の形式を確認可能
+    12. 	書類の送信: POST /contracts/{ID}/confirm
+                    a.	* 1〜10の情報が過不足なく設定されている場合にリクエスト成功。不足があればエラーが返ります。
+    13. 	署名依頼メールのリマインド送信: POST /contracts/{ID}/remind
+    14.	署名依頼メールの取下げ: POST /contracts/{ID}/withdraw
+    15.	合意締結証明書の取得: GET /contracts/{ID}/certificate
+
+
+
+API仕様②   最終更新: 2025/07/22
+12
+
+▶API定義：https://api.contract.moneyforward.com/v1/docs/index.html
+    16. 実装中）テンプレート一覧の取得：GET /contract_templates
+    a.	申請者が入力するカスタム項目がないテンプレートを取得します
+    b.	自社の押印を含むか含まないかという情報をテンプレートごとに返却します
+　c.	相手方の数の情報をテンプレートごとに返却します
+    17.実装中）テンプレートで下書き契約の作成：POST /contracts/with_template
+    a.	*2, 16で取得したリストからいずれかの id をそれぞれ workflow_template_id, contract_template_idとして指定してください。
+　b.	押印者を含む/含まないワークフローと自社の押印を含む/含まないテンプレートを組み合わせて契約を作成する必要があります。
+     c. 	*4で取得したリストからいずれかのidを person_in_charge_idとして指定してください
+	    d.	テンプレートで設定したカスタム項目を保持したまま送付します。自社と相手方のカスタム項目（テキストボックス/押印欄/チェックボックス）は承認者が通常通り画面上で記入できます。
+                    e.	書類の送信ステップまで、他の情報を取得・更新するために、既存のAPIを利用してください
+
+API仕様③   最終更新: 2025/07/22
+13
+
+▶API定義：https://api.contract.moneyforward.com/v1/docs/index.html
+    16. 実装中）テンプレート一覧の取得：GET /contract_templates
+    a.	申請者が入力するカスタム項目がないテンプレートを取得します
+    b.	自社の押印を含むか含まないかという情報をテンプレートごとに返却します
+　  c.	相手方の数の情報をテンプレートごとに返却します
+    17.実装中）テンプレートで下書き契約の作成：POST /contracts/with_template
+    a.	*2, 16で取得したリストからいずれかの id をそれぞれ workflow_template_id, contract_template_idとして指定してください。
+　   b.	押印者を含む/含まないワークフローと自社の押印を含む/含まないテンプレートを組み合わせて契約を作成する必要があります。
+     c. 	*4で取得したリストからいずれかのidを person_in_charge_idとして指定してください
+	 d.	テンプレートで設定したカスタム項目を保持したまま送付します。自社と相手方のカスタム項目（テキストボックス/押印欄/チェックボックス）は承認者が通常通り画面上で記入できます。
+     e.	書類の送信ステップまで、他の情報を取得・更新するために、既存のAPIを利用してください
