@@ -1,0 +1,1124 @@
+Date: Wed, 6 Aug 2025 05:58:40 +0000 (UTC)
+Message-ID: <1144463644.33.1754459920612@99732d801285>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_32_253635048.1754459920611"
+
+------=_Part_32_253635048.1754459920611
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Multiple contracts as group contracts</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Multiple contracts as group contracts</h1>
+    <div class=3D"Section1">
+        <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1754459920591 {padding: 0px;}
+div.rbtoc1754459920591 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1754459920591 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1754459920591">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#Multiplecontractsasgroupcontracts-APIChangesproposals">API =
+Changes proposals</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#Multiplecontractsasgroupcontracts-Exposed&amp;Internalstruc=
+ture">Exposed &amp; Internal structure</a></li>
+<li><a href=3D"#Multiplecontractsasgroupcontracts-APIDetails&amp;Usage">API=
+ Details &amp; Usage</a></li>
+</ul></li>
+<li><a href=3D"#Multiplecontractsasgroupcontracts-MultipleContractSetupWork=
+flow">Multiple Contract Setup Workflow</a></li>
+<li><a href=3D"#Multiplecontractsasgroupcontracts-Pros&amp;Cons">Pros&amp;C=
+ons</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#Multiplecontractsasgroupcontracts-Pros">Pros</a></li>
+<li><a href=3D"#Multiplecontractsasgroupcontracts-Cons">Cons</a></li>
+<li><a href=3D"#Multiplecontractsasgroupcontracts-Consideration">Considerat=
+ion</a></li>
+</ul></li>
+</ul>
+</div>
+<p></p>
+<h1 id=3D"Multiplecontractsasgroupcontracts-APIChangesproposals">API Change=
+s proposals</h1>
+<p>We aim to provide new set of APIs to handle <code>multiple contracts</co=
+de> and existing (current) APIs are used for operating with <code>single co=
+ntract</code>. The new APIs will be designed to work alongside the existing=
+ APIs, ensuring that both functionalities can coexist without any issues.</=
+p>
+<p><strong>NOTE: </strong>In this article, we will refer multiple contracts=
+ as a group of contracts not the table <code>multiple_contracts</code>. Thi=
+s table will be referred as <code>child_contracts</code> for easy to unders=
+tand</p>
+<h2 id=3D"Multiplecontractsasgroupcontracts-Exposed&amp;Internalstructure">=
+Exposed &amp; Internal structure</h2>
+<p><strong>Exposed structure: </strong>In this proposal, we introduce a con=
+cept of <strong>multiple contracts</strong> (or group) in which all contrac=
+ts are at the same level. The group information we expose to users is <stro=
+ng>multiple_contract_id </strong>(first level field ID in the GET API respo=
+nse). Users can manage contracts in group by a single API with this id.</p>
+<p></p>
+<p><strong>Internal structure: </strong>Even we expose all the contracts as=
+ a same level, <strong>multiple contracts are stored following main-child s=
+tructure in the database</strong>. <span class=3D"inline-comment-marker" da=
+ta-ref=3D"eba435c5-d50a-4b8d-9a22-2f652eab7d91">The first contract in the g=
+roup will be the main contract and the others will be child contracts.</spa=
+n> Therefore, we will not create any new tables for this group contracts bu=
+t we use the <strong>ID of</strong> <strong>main contract</strong> <strong>=
+as a multiple_contract_id</strong>. The pros&amp;cons of this structure wil=
+l be discussed in <strong>Pros&amp;Cons </strong>section. <span class=3D"in=
+line-comment-marker" data-ref=3D"181ed5ee-4203-4557-83ef-b608b19a4533">The =
+identifier field of each contracts in multiple contracts will be </span><co=
+de><span class=3D"inline-comment-marker" data-ref=3D"181ed5ee-4203-4557-83e=
+f-b608b19a4533">id</span></code>. As the first contract is stored in contra=
+cts table while others stored in child_contracts table, there is a chance o=
+f duplicate value in the response so we will return the id in a custom form=
+at. Example is like below block.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+    "id": "multiple_contracts_id", // &lt;contracts.id&gt;
+    "contracts": [
+      {
+        "id": "contract_1_id", // &lt;M_contracts.id_contracts.id&gt;
+        "name": "contract 1",
+      },
+      {
+        "id": "contract_2_id", // &lt;C_contracts.id_child-contracts.id&gt;
+        "name": "contract 2",
+      }
+    ]
+}</pre>
+</div>
+</div>
+<h2 id=3D"Multiplecontractsasgroupcontracts-APIDetails&amp;Usage">API Detai=
+ls &amp; Usage</h2>
+<ol start=3D"1">
+<li>
+<p><strong>Get multiple contracts</strong></p></li>
+</ol>
+<p style=3D"margin-left: 30.0px;">Get multiple contracts by the <span class=
+=3D"inline-comment-marker" data-ref=3D"a8d2d7e6-6694-473e-a22b-838bf8759c43=
+">mutiple_contract_id</span>. The response object for each contract is near=
+ly the identical to the single contract response.</p>
+<ul>
+<li>
+<p>Endpoint: <code>GET /v1/multiple_contracts/:id</code></p></li>
+<li>
+<p>Response:</p>
+<ul>
+<li>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+    "id": "multiple_contracts_id",
+    "worfklow_template_id": "workflow_template_id",
+    "person_in_charge_id": "pic_id",
+    "contracts": [
+      {
+        "id": "contract_1_id",
+        "number": "000001-1",
+        "name": "contract 1",
+        "document_type_id": "document_id",
+        "contract_type_id": "contract_type_id",
+        "type": "contract_type_value",
+        "document": {
+          "id": "document_id",
+          "name": "contract labor",
+          "file_type": "pdf",
+          "path": ""
+        },
+        "contract_fields": [],
+        "partner_companies": []
+      },
+      {
+        "id": "contract_2_id",
+        "number": "000001-2",
+        "name": "contract 2",
+        "document_type_id": "document_id",
+        "contract_type_id": "contract_type_id",
+        "type": "contract_type_value",
+        "contract_fields": [],
+        "partner_companies": []
+      }
+    ]
+}</pre>
+</div>
+</div></li>
+</ul></li>
+</ul>
+<ol start=3D"2">
+<li>
+<p><strong>Get single contract in multiple contracts</strong></p></li>
+</ol>
+<p style=3D"margin-left: 30.0px;">Get single contract in group by specific =
+contract id. This provides users the flexibility for updating the contract =
+information if they want to make a small change in the group.</p>
+<ul>
+<li>
+<p>Endpoint: <code><span class=3D"inline-comment-marker" data-ref=3D"a13120=
+df-0da5-4fdb-9e91-9b09a45bb887">GET /v1/multiple_contracts/:id/contracts/:i=
+d</span></code></p></li>
+<li>
+<p>Response:</p>
+<ul>
+<li>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">  {
+    "id": "contract_2_id",
+    "number": "000001-2",
+    "name": "contract 2",
+    "document_type_id": "document_id",
+    "contract_type_id": "contract_type_id",
+    "worfklow_template_id": "workflow_template_id",
+    "person_in_charge": "pic_id",
+    "contract_fields": [],
+    "partner_companies": []
+  }</pre>
+</div>
+</div></li>
+</ul></li>
+</ul>
+<ol start=3D"3">
+<li>
+<p><strong>Get list of multiple contracts (groups)</strong></p></li>
+</ol>
+<p style=3D"margin-left: 30.0px;">Get list of multiple(groups) contract. Th=
+is API will not include single contract in the response or any deleted mult=
+iple contracts.</p>
+<ul>
+<li>
+<p>Endpoint: <code>GET /v1/multiple_contracts</code></p></li>
+<li>
+<p>Response:</p>
+<ul>
+<li>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">[
+  {
+    "id": "multiple_contract_id",
+    "workflow_template_id": "workflow_template_id",
+    "person_in_charge": "pic_id"
+    "contracts": []
+  },
+  {
+    "id": "multiple_contract_id_2"
+    "workflow_template_id": "workflow_template_id",
+    "person_in_charge": "pic_id"
+    "contracts": []
+  },
+] </pre>
+</div>
+</div></li>
+</ul></li>
+</ul>
+<ol start=3D"4">
+<li>
+<p><strong>Create multiple contracts</strong></p></li>
+</ol>
+<p style=3D"margin-left: 30.0px;"><span class=3D"inline-comment-marker" dat=
+a-ref=3D"7d08afae-ec92-4651-a9c1-0ab9947cd903">Create multiple contracts by=
+ submitting all the contracts information inside one body request. The resp=
+onse will return a multiple_contract_id to help users to manage those contr=
+acts together in other API path.</span></p>
+<ul>
+<li>
+<p>Endpoint: <code>POST /v1/multiple_contracts</code></p></li>
+<li>
+<p>Request:</p>
+<ul>
+<li>
+<p>Users can submit the common (peron_in_charge_id, workflow_template_id) a=
+nd separated (contract_type_id, document_type_id) properties for all contra=
+cts.</p></li>
+<li>
+<p>Users <strong>must submit at least two contracts</strong> in the request=
+.</p></li>
+<li>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+    "person_in_charge_id": "LJjWAKmP46M7RlpO7XoN10Yz",
+    "workflow_template_id": "YkXpLQNzvMBa8GrcowJe5481",
+    "contracts": [
+        {
+            "name": "contract_1",
+            "contract_type_id": "contract_type_id_2",
+            "document_type_id": "document_type_id_3"
+        },
+        {
+            "name": "contract_2",
+            "contract_type_id": "contract_type_id_3",
+            "document_type_id": "document_type_id_3"
+        }
+    ]
+}</pre>
+</div>
+</div></li>
+</ul></li>
+<li>
+<p>Response: it is the same as GET API</p></li>
+</ul>
+<ol start=3D"5">
+<li>
+<p><strong>Delete multiple contracts</strong></p></li>
+</ol>
+<p style=3D"margin-left: 30.0px;">Users can only delete all multiple contra=
+cts at the same time. After delete, the API to get multiple contracts by ID=
+ will return 404 error code.</p>
+<ul>
+<li>
+<p>Endpoint: <code>DELETE /v1/multiple_contracts/:id</code></p></li>
+<li>
+<p>Response: 200</p></li>
+</ul>
+<ol start=3D"6">
+<li>
+<p><strong>Update multiple contracts</strong></p></li>
+</ol>
+<p style=3D"margin-left: 30.0px;"><span class=3D"inline-comment-marker" dat=
+a-ref=3D"ef5d5e71-0fa1-4e07-b4a2-5bc973cc0b9b">Update existing multiple con=
+tracts and adding new contracts at the same time. The payload is nearly the=
+ same as for creating multiple contracts. In this API, we just let the user=
+s updating the existing contracts in group (not yet support for delete, cre=
+ate new options).</span></p>
+<ul>
+<li>
+<p>Endpoint: <code>PUT /v1/multiple_contracts/:id</code></p></li>
+<li>
+<p>Request:</p>
+<ul>
+<li>
+<p>Users must specify which contract by including number of that contract i=
+n the request payload. If not the contract is not updated but it still exis=
+ts in the group.</p></li>
+<li>
+<p>We only update the information for submitted contracts only.</p></li>
+<li>
+<p>If the id not exists or null, we assume the user want to add new contrac=
+t.</p></li>
+<li>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+    "person_in_charge_id": "LJjWAKmP46M7RlpO7XoN10Yz",
+    "workflow_template_id": "YkXpLQNzvMBa8GrcowJe5481",
+    "contracts": [
+        {
+            "id": "contract_1_id", // update contract 1
+            "name": "contract_1",
+            "contract_type_id": "contract_type_id_2",
+            "document_type_id": "document_type_id_3"
+        },
+        {
+            "id": null, // create new contract
+            "name": "contract_3",
+            "contract_type_id": "contract_type_id_2",
+            "document_type_id": "document_type_id_3"
+        }
+    ]
+}</pre>
+</div>
+</div></li>
+</ul></li>
+<li>
+<p>Response: the response is the same as GET API.</p></li>
+</ul>
+<ol start=3D"7">
+<li>
+<p><strong>Upload multiple contracts document</strong></p></li>
+</ol>
+<p style=3D"margin-left: 30.0px;">Upload document for contracts in group. <=
+strong>Currently we just accept one file - one contract each request to avo=
+id the unexpected response time if we handle too many files.</strong> We ca=
+n consider increasing the limit if users require.</p>
+<ul>
+<li>
+<p>Endpoint: <code>POST /v1/multiple_contracts/:id/contracts/:id/<span clas=
+s=3D"inline-comment-marker" data-ref=3D"17fbcf2f-5f9d-474e-a56a-944da75b3cd=
+3">documents</span></code></p></li>
+<li>
+<p>Request:</p>
+<ul>
+<li>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">multipa=
+rt/form-data
+--form 'file=3D@"/main_contract_document.pdf"' </pre>
+</div>
+</div></li>
+</ul></li>
+<li>
+<p>Response: 200</p></li>
+</ul>
+<ol start=3D"8">
+<li>
+<p><strong>Save multiple contract fields</strong></p></li>
+</ol>
+<p style=3D"margin-left: 30.0px;">Update multiple contract fields for contr=
+acts in group. The information for fields in each contract is identical to =
+saving single contract=E2=80=99s fields request.</p>
+<ul>
+<li>
+<p>Endpoint: <code>PUT /v1/multiple_contracts/:id/fields</code></p></li>
+<li>
+<p>Request:</p>
+<ul>
+<li>
+<p>We only update the contract fields for submitted contracts only.</p></li=
+>
+<li>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">[
+  {
+    "id": "contract_1_id"
+    "contract_fields": [
+      {
+        "id": "field_1_id",
+        "name": "=E8=87=AA=E5=8B=95=E6=9B=B4=E6=96=B0=E3=81=AE=E6=9C=89=E7=
+=84=A1",
+        "value": {
+          "data": "anything"
+        }
+      }
+    ]
+  }
+]</pre>
+</div>
+</div></li>
+</ul></li>
+<li>
+<p>Response:</p>
+<ul>
+<li>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">[
+  {
+    "id": "contract_1_id"
+    "contract_fields": [
+      {
+        "id": "field_1_id",
+        "name": "=E8=87=AA=E5=8B=95=E6=9B=B4=E6=96=B0=E3=81=AE=E6=9C=89=E7=
+=84=A1",
+        "value": {
+          "data": "anything"
+        }
+      }
+    ]
+  }
+]</pre>
+</div>
+</div></li>
+</ul></li>
+</ul>
+<ol start=3D"9">
+<li>
+<p><strong>Save multiple contract partner companies</strong></p></li>
+</ol>
+<p style=3D"margin-left: 30.0px;">Edit multiple contract partner companies =
+at the same time. The information of partner companies in each contract is =
+identical to single contract request</p>
+<ul>
+<li>
+<p>Endpoint: <code>POST /v1/multiple_contracts/:id/partner_companies</code>=
+</p></li>
+<li>
+<p>Request:</p>
+<ul>
+<li>
+<p><strong>The partner information is the same for all contracts in group e=
+xcept the representative name</strong>. So in this API, all the contracts w=
+ill inherit the same partner companies information from payload. In additio=
+n, users can modify each contracts partner companies representative name by=
+ other API - <code>/v1/multiple_contracts/:id/contracts/:id/representative_=
+names</code>.</p></li>
+<li>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">[
+  {
+    "name": "partner 1",
+    "representative_names": "representative name 1",
+    "approvers": [
+      {
+        "email": "partner@email.com",
+        "name": "approver 1",
+        "company_name": "partner 1",
+        "access_key": "123456",
+        "locale": "ja"
+      }
+    ]
+  },
+  {
+    "name": "partner 2",
+    "representative_names": "representative name 2",
+    "approvers": [
+      {
+        "email": "partner@email.com",
+        "name": "approver 1",
+        "company_name": "partner 2",
+        "access_key": "",
+        "locale": "ja"
+      }
+    ]
+  },
+]</pre>
+</div>
+</div></li>
+</ul></li>
+<li>
+<p>Response:</p>
+<ul>
+<li>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">[
+  {
+    "id": "contract_1_id",
+    "partner_companies": [
+      {
+        "name": "partner 1",
+        "representative_name": "representative name 1",
+        "approvers": [
+          {
+            "email": "partner@email.com",
+            "name": "approver 1",
+            "company_name": "partner 1",
+            "access_key": "123456",
+            "locale": "ja"
+          }
+        ]
+      },
+      {
+        "name": "partner 2",
+        "representative_names": "representative name 2",
+        "approvers": [
+          {
+            "email": "partner@email.com",
+            "name": "approver 1",
+            "company_name": "partner 2",
+            "access_key": "",
+            "locale": "ja"
+          }
+        ]
+      },
+    ]
+  },
+  {
+    "id": "contract_2_id",
+    "partner_companies": [
+      {
+        "name": "partner 1",
+        "representative_name": "representative name 1",
+        "approvers": [
+          {
+            "email": "partner@email.com",
+            "name": "approver 1",
+            "company_name": "partner 1",
+            "access_key": "123456",
+            "locale": "ja"
+          }
+        ]
+      },
+      {
+        "name": "partner 2",
+        "representative_names": "representative name 2",
+        "approvers": [
+          {
+            "email": "partner@email.com",
+            "name": "approver 1",
+            "company_name": "partner 2",
+            "access_key": "",
+            "locale": "ja"
+          }
+        ]
+      },
+    ]
+  }=20
+]</pre>
+</div>
+</div></li>
+</ul></li>
+</ul>
+<ol start=3D"10">
+<li>
+<p><strong>Update representative names for each contract</strong></p></li>
+</ol>
+<p style=3D"margin-left: 30.0px;">Users can edit partner companies represen=
+tative names for each contract. They must submit the representative names f=
+or all partner companies in the correct order.</p>
+<ul>
+<li>
+<p>Endpoint: <code>PUT /v1/multiple_contracts/:id/contracts/:id/partner_rep=
+resentative_names</code></p></li>
+<li>
+<p>Request:</p>
+<ul>
+<li>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+    "representative_names": [
+      "partner A",  // for first partner=20
+      "partner B"   // for second partner
+    ],
+}</pre>
+</div>
+</div></li>
+</ul></li>
+<li>
+<p>Response</p>
+<ul>
+<li>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "id": "contract_1_id",
+  "partner_companies": [
+    {
+      "name": "partner 1",
+      "representative_name": "partner A"
+    },
+    {
+      "name": "partner 2",
+      "representative_names": "partner B"
+    },
+  ]
+}</pre>
+</div>
+</div></li>
+</ul></li>
+</ul>
+<ol start=3D"11">
+<li>
+<p><strong>Send multiple contracts for approval</strong></p></li>
+</ol>
+<p style=3D"margin-left: 30.0px;">Send all contracts in group for <span cla=
+ss=3D"inline-comment-marker" data-ref=3D"cfeb0e0a-0ba0-4013-a79b-de254a75b9=
+1b">approval</span>. The server will check if all contracts information is =
+full-filled. Only one mail is sent for each approvers even there are multip=
+le contracts.</p>
+<ul>
+<li>
+<p>Endpoint: <code>POST /v1/multiple_contracts/:id/confirm</code></p></li>
+<li>
+<p>Response: 200</p></li>
+</ul>
+<ol start=3D"12">
+<li>
+<p><strong>Remind multiple contracts</strong></p></li>
+</ol>
+<p style=3D"margin-left: 30.0px;">Send remind email to approver for multipl=
+e contracts.</p>
+<ul>
+<li>
+<p>Endpoint: <code>POST /v1/multiple_contracts/:id/remind</code></p></li>
+<li>
+<p>Response: 200</p></li>
+</ul>
+<ol start=3D"13">
+<li>
+<p><strong>Withdraw multiple contracts</strong></p></li>
+</ol>
+<p style=3D"margin-left: 30.0px;">Withdraw all contracts at the same time.<=
+/p>
+<ul>
+<li>
+<p>Endpoint: <code>POST /v1/multiple_contracts/:id/withdraw</code></p></li>
+<li>
+<p>Request:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "comment": "hello"
+}</pre>
+</div>
+</div></li>
+<li>
+<p>Response: 200</p></li>
+</ul>
+<ol start=3D"14">
+<li>
+<p><strong>Download multiple contracts certificate</strong></p></li>
+</ol>
+<p style=3D"margin-left: 30.0px;">User can choose between download certific=
+ates of all contracts or specific contract. If users download all, then we =
+will zip those certificates file into a zip file. If there is no specific q=
+uery param then we will download all certificates for users.</p>
+<ul>
+<li>
+<p>Endpoint: <code>GET /v1/multiple_contracts/:id/certificates</code></p></=
+li>
+<li>
+<p><span class=3D"inline-comment-marker" data-ref=3D"6a500fdf-506b-4613-985=
+f-519fd915dcd1">Param: </span></p>
+<ul>
+<li>
+<p><span class=3D"inline-comment-marker" data-ref=3D"6a500fdf-506b-4613-985=
+f-519fd915dcd1">contract_id: =E2=80=9Ccontract_1_id=E2=80=9D</span></p></li=
+>
+</ul></li>
+<li>
+<p>Response: binary</p>
+<ul>
+<li>
+<p>One file: file format is pdf.</p></li>
+<li>
+<p>All files: file format is zip. <strong>The structure is the same as when=
+ partner download all multiple contrac<span class=3D"inline-comment-marker"=
+ data-ref=3D"988f787d-89aa-4cc9-b0e3-2431b704114e">ts in the partner approv=
+al page. </span></strong><span class=3D"inline-comment-marker" data-ref=3D"=
+988f787d-89aa-4cc9-b0e3-2431b704114e">Structure is below:</span></p>
+<ul>
+<li>
+<p><span class=3D"inline-comment-marker" data-ref=3D"988f787d-89aa-4cc9-b0e=
+3-2431b704114e">&lt;main-contracts.name&gt; (=E4=BB=96&lt;total-contracts&g=
+t;=E4=BB=B6)/</span></p>
+<ul>
+<li>
+<p><span class=3D"inline-comment-marker" data-ref=3D"988f787d-89aa-4cc9-b0e=
+3-2431b704114e">&lt;contracts_1.name&gt;/</span></p>
+<ul>
+<li>
+<p><span class=3D"inline-comment-marker" data-ref=3D"988f787d-89aa-4cc9-b0e=
+3-2431b704114e">certificate.pdf</span></p></li>
+</ul></li>
+<li>
+<p><span class=3D"inline-comment-marker" data-ref=3D"988f787d-89aa-4cc9-b0e=
+3-2431b704114e">&lt;contracts_2.name&gt;/</span></p>
+<ul>
+<li>
+<p><span class=3D"inline-comment-marker" data-ref=3D"988f787d-89aa-4cc9-b0e=
+3-2431b704114e">certificate.pdf</span></p></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<h1 id=3D"Multiplecontractsasgroupcontracts-MultipleContractSetupWorkflow">=
+<span class=3D"inline-comment-marker" data-ref=3D"988f787d-89aa-4cc9-b0e3-2=
+431b704114e">Mult</span>iple<span class=3D"inline-comment-marker" data-ref=
+=3D"9372467a-a866-4e9f-bc38-eddd7ab01a2f"> Contract Setup Workflow</span></=
+h1>
+<p><span class=3D"inline-comment-marker" data-ref=3D"9372467a-a866-4e9f-bc3=
+8-eddd7ab01a2f">In this section, I will present a brief understanding of AP=
+I workflow to prepare a completed multiple contracts. We will explain the u=
+sage for each API.</span></p>
+<p></p>
+<ol start=3D"1">
+<li>
+<p><span class=3D"inline-comment-marker" data-ref=3D"9372467a-a866-4e9f-bc3=
+8-eddd7ab01a2f">Create multiple contracts: </span><code><span class=3D"inli=
+ne-comment-marker" data-ref=3D"9372467a-a866-4e9f-bc38-eddd7ab01a2f">POST /=
+v1/multiple_contracts</span></code></p>
+<ul>
+<li>
+<p><span class=3D"inline-comment-marker" data-ref=3D"9372467a-a866-4e9f-bc3=
+8-eddd7ab01a2f">This will create a group of contracts. </span></p></li>
+<li>
+<p><span class=3D"inline-comment-marker" data-ref=3D"9372467a-a866-4e9f-bc3=
+8-eddd7ab01a2f">Users must submi</span>t at least 2 contracts in the reques=
+t to form a group.</p></li>
+</ul></li>
+<li>
+<p>Get multiple contracts: <code>GET /v1/multiple_contracts/:id</code></p>
+<ul>
+<li>
+<p>The information of contracts is included in <code>multiple_contracts</co=
+de> property. This is a list of object of contract.</p></li>
+<li>
+<p>The contract information includes its individual fields such as <code>na=
+me, document_type_id, contract_type_id, contract_fields</code>.</p></li>
+<li>
+<p>Get individual contract in group: <code>GET /v1/multiple_contracts/:id/c=
+ontracts/:id</code></p></li>
+<li>
+<p>Get list of multiple contracts or list of groups: <code>GET /v1/multiple=
+_contracts</code></p></li>
+</ul></li>
+<li>
+<p>Update multiple contracts: <code>PUT /v1/multiple_contracts/:id/</code><=
+/p>
+<ul>
+<li>
+<p>Update contracts in group by accepting a list of objects. Users can upda=
+te any contracts (not required to update all).</p></li>
+<li>
+<p>User needs to specify the <code>id</code> of child contracts in the requ=
+est and the server only accepts individual fields for each contract such as=
+ <code>document_type_id, contract_type_id, name</code>.</p></li>
+<li>
+<p>If user want to add more contracts to the group, they can set the <code>=
+id</code> as null or not submit that field.</p></li>
+</ul></li>
+<li>
+<p>(Optional) Delete multiple contracts: <code>DELETE /v1/multiple_contract=
+s/:id</code></p></li>
+<li>
+<p>Upload document for multiple contracts:<code>PUT /v1/multiple_contracts/=
+:id/contracts/:id/documents</code></p>
+<ul>
+<li>
+<p>Currently we just support user to submit document for one contract per r=
+equest. As there are maximum 10 contracts so submitting all files is not ap=
+propriate.</p></li>
+</ul></li>
+<li>
+<p>Update multiple contracts' fields: <code>PUT /v1/multiple_contracts/:id/=
+fields</code></p>
+<ul>
+<li>
+<p>The idea is same as updating contracts API, the server accepts a list of=
+ objects and user can specify any contracts they want to update the fields =
+information.</p></li>
+</ul></li>
+<li>
+<p>Upsert partner companies: <code>POST /v1/multiple_contracts/:id/partner_=
+companies</code></p>
+<ul>
+<li>
+<p>The partner companies information will be reflected to all the contracts=
+.</p></li>
+<li>
+<p>Update partner companies representative names for each contract: <code>P=
+UT /v1/multiple_contracts/:id/contracts/<span class=3D"inline-comment-marke=
+r" data-ref=3D"43b5782c-0313-43d9-b8e7-ac74ad0562c0">:id</span>/partner_rep=
+resentative_names</code>. Users must submit the representative name in the =
+same order when they create partner companies.</p></li>
+</ul></li>
+<li>
+<p>Send multiple contracts for approval: <code>POST /v1/multiple_contracts/=
+:id/confirm</code></p>
+<ul>
+<li>
+<p>Send all contracts in group to the approver and ensure all information o=
+f each contract is full-filled.</p></li>
+<li>
+<p>This step will check for all required information of the contracts such =
+as contract fields, partner companies, document.</p></li>
+</ul></li>
+<li>
+<p>Remind approvers: <code>POST /v1/multiple_contracts/:id/remind</code></p=
+>
+<ul>
+<li>
+<p>Send remind emails to approvers.</p></li>
+</ul></li>
+<li>
+<p>Withdraw multiple contracts: <code>POST /v1/multiple_contracts/:id/withd=
+raw</code></p>
+<ul>
+<li>
+<p>Withdraw multiple contracts at the same time.</p></li>
+</ul></li>
+<li>
+<p>Get multiple contract certificates: <code>GET /v1/multiple_contracts/:id=
+/certificates</code></p>
+<ul>
+<li>
+<p>User can download all or specific certificates of contracts in group by =
+providing the query param.</p></li>
+<li>
+<p>download_all:</p>
+<ul>
+<li>
+<p>true: download as zip file.</p></li>
+</ul></li>
+<li>
+<p>multiple_contract_number: provide the specific child contract number to =
+get its cert.</p>
+<ul>
+<li>
+<p>NOTE: Cannot specify this param when download_all=3Dtrue, the server wil=
+l prioritize download_all param.</p></li>
+</ul></li>
+</ul></li>
+</ol>
+<h1 id=3D"Multiplecontractsasgroupcontracts-Pros&amp;Cons">Pros&amp;Cons</h=
+1>
+<h2 id=3D"Multiplecontractsasgroupcontracts-Pros">Pros</h2>
+<ul>
+<li>
+<p>Introducing multiple contracts will align the same format as multiple co=
+ntracts in our UI, this will not create any confusion for user.</p></li>
+<li>
+<p>Provide users API to operate on multiple contracts at the same time with=
+out making many calls. Except for uploading document as it require extra te=
+chnical solution if users prefer to submit many contracts.</p></li>
+</ul>
+<h2 id=3D"Multiplecontractsasgroupcontracts-Cons">Cons</h2>
+<ul>
+<li>
+<p><span class=3D"inline-comment-marker" data-ref=3D"af9b6f6b-4607-4b60-ac2=
+f-07ad68a880c1">Accept a payload of multiple contracts in a same level hier=
+archy requires the server to transform data into another structure to fit w=
+ith database storage. As multiple contracts stored in DB follows </span><st=
+rong><span class=3D"inline-comment-marker" data-ref=3D"af9b6f6b-4607-4b60-a=
+c2f-07ad68a880c1">main-child</span></strong><span class=3D"inline-comment-m=
+arker" data-ref=3D"af9b6f6b-4607-4b60-ac2f-07ad68a880c1"> structure.</span>=
+</p></li>
+<li>
+<p>Even users treat all contracts as the same level, the first contract in =
+the payload is always stored as main contract and the others will be its ch=
+ildren.</p>
+<ul>
+<li>
+<p>We cannot provide delete operation for users if we do not want to expose=
+ the internal structure. Since the main contract cannot be removed.</p></li=
+>
+<li>
+<p>The id of the contracts may be duplicated. So we will have to customize =
+the id format and encrypt (e.g., &lt;M_contracts.id_contracts.id&gt;, &lt;C=
+_contracts.id_child-contract.id&gt;).</p></li>
+</ul></li>
+</ul>
+<h2 id=3D"Multiplecontractsasgroupcontracts-Consideration">Consideration</h=
+2>
+<ul>
+<li>
+<p>We can support users to delete child contracts except for the first one =
+if there is any inquiries.</p></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_32_253635048.1754459920611--
